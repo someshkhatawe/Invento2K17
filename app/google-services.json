@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "763714365229",
+    "firebase_url": "https://invento2k17-3dfd5.firebaseio.com",
+    "project_id": "invento2k17-3dfd5",
+    "storage_bucket": "invento2k17-3dfd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763714365229:android:fd56d12a1147685c",
+        "android_client_info": {
+          "package_name": "com.invento.somesh.invento2k17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763714365229-9pnit7kmb6otac3r42a55kdr0fnqibfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv22mLnPC23AThYNUtGhDHdTRTAGGSr0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
