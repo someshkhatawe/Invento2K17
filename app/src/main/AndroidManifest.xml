@@ -15,7 +15,8 @@
             android:name=".MainActivity"
             android:label="@string/app_name"></activity>
         <activity android:name=".Loginactivity" />
-
+        <activity android:name=".ResetPasswordActivity" />
+        
         <activity android:name=".RegisterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
