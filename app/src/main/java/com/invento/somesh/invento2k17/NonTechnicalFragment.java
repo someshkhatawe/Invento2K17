@@ -3,15 +3,23 @@ package com.invento.somesh.invento2k17;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class NonTechnicalFragment extends Fragment {
+public class NonTechnicalFragment extends ListFragment {
+
+
+    String[] players={"Show Bizz(movie Making)","cut Throat(Solo Singing)","Feel THe BEat(Dance)",
+            "Rock the Range(Battle of Bands","vouge(The Fashion show"};
+
 
 
     public NonTechnicalFragment() {
@@ -22,8 +30,12 @@ public class NonTechnicalFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_non_technical, container, false);
+        View rootView=inflater.inflate(R.layout.fragment_non_technical, container,false);
+
+        ListAdapter adapter=new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1,players);
+        setListAdapter(adapter);
+
+        return  rootView;
     }
 
 }
