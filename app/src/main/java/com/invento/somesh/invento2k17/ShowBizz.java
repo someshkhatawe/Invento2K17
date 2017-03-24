@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
@@ -75,6 +76,7 @@ public class ShowBizz extends AppCompatActivity {
         };
 
         mblogList.setAdapter(firebaseRecyclerAdapter);
+        Toast.makeText(getApplicationContext(),"Syncing Data From Server",Toast.LENGTH_SHORT).show();
 
 
     }
