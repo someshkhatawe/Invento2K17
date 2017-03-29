@@ -24,7 +24,7 @@ import java.util.List;
  * A simple {@link Fragment} subclass.
  */
 public class TechnicalFragment extends ListFragment {
-    String[] players={"Ander Herera","Wayne Rooney","David DeGea","Robin Van Persie",
+    String[] events={"Ander Herera","Wayne Rooney","David DeGea","Robin Van Persie",
             "Juan Mata","Michael Carrick","Chris Smalling","Phil Jones"};
 
 
@@ -39,7 +39,7 @@ public class TechnicalFragment extends ListFragment {
         // Inflate the layout for this fragment
         View rootView=inflater.inflate(R.layout.fragment_technical, container,false);
 
-        ListAdapter adapter=new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1,players);
+        ListAdapter adapter=new ArrayAdapter<String>(getActivity(), R.layout.row_layout,R.id.txtitem,events);
         setListAdapter(adapter);
 
         return  rootView;

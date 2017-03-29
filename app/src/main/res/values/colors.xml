@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#000</color>
-    <color name="orange">#FA0</color>
-    <color name="white">#FFF</color>
+    <color name="black">#ff1f1f1f</color>
+    <color name="TabTXT">#494949</color>
+    <color name="ListTXT">#ffababab</color>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="orange">#ff181818</color>
+    <color name="white">#ff1f1f1f</color>
+    <color name="sel">#ffff</color>
+    <color name="descTxt">#ff8d8d8d</color>
 
 </resources>

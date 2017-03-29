@@ -2,29 +2,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-
     <item android:title="Events"
-          android:id="@+id/nav_item_inbox"
-          android:icon="@drawable/inbox"/>
+          android:id="@+id/nav_item_Events"
+          android:icon="@drawable/inbox" />
 
     <item android:title="Schedule"
-          android:id="@+id/nav_item_sent"
+          android:id="@+id/nav_item_sch"
           android:icon="@drawable/sent"/>
 
     <item android:title="LiveEvents"
-          android:id="@+id/nav_item_draft"
+          android:id="@+id/nav_item_live"
           android:icon="@drawable/draft"/>
     <item
-        android:title="Spam"
+        android:title="Sponsors"
+        android:id="@+id/nav_spo"
         android:icon="@drawable/spam"/>
     <item
         android:title="Logout"
         android:id="@+id/nav_logout"
         android:icon="@drawable/bin"/>
 
-    <item android:title="Settings"
+    <item android:title="Contact us"
         android:icon="@drawable/settings"/>
-    <item android:title="Help"
+    <item android:title="Developers"
         android:icon="@drawable/help"/>
 
     <item android:title="Others">

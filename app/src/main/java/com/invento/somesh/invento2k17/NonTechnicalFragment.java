@@ -17,7 +17,7 @@ import android.widget.ListAdapter;
 public class NonTechnicalFragment extends ListFragment {
 
 
-    String[] players={"Show Bizz(movie Making)","cut Throat(Solo Singing)","Feel THe BEat(Dance)",
+    String[] events={"Show Bizz(movie Making)","cut Throat(Solo Singing)","Feel THe BEat(Dance)",
             "Rock the Range(Battle of Bands","vouge(The Fashion show"};
 
 
@@ -32,7 +32,7 @@ public class NonTechnicalFragment extends ListFragment {
                              Bundle savedInstanceState) {
         View rootView=inflater.inflate(R.layout.fragment_non_technical, container,false);
 
-        ListAdapter adapter=new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1,players);
+        ListAdapter adapter=new ArrayAdapter<String>(getActivity(), R.layout.row_layout,R.id.txtitem,events);
         setListAdapter(adapter);
 
         return  rootView;
