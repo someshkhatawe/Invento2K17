@@ -50,10 +50,11 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 if (menuItem.getItemId() == R.id.nav_item_sch) {
-                    FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView,new SentFragment()).commit();
-
+                    mFragmentManager = getSupportFragmentManager();
+                    mFragmentTransaction = mFragmentManager.beginTransaction();
+                    mFragmentTransaction.replace(R.id.containerView,new ScheduleFragment()).commit();
                 }
+
 
                 if (menuItem.getItemId() == R.id.nav_spo) {
                     startActivity(new Intent(getApplication(), Sponsor.class));
