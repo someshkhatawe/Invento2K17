@@ -19,19 +19,15 @@ public class Blog {
     public void setTitle(String title) {
         this.Title = Title;
     }
-
     public String getDesc() {
         return Desc;
     }
-
     public void setDesc(String desc) {
         this.Desc = Desc;
     }
-
     public String getImage() {
         return image;
     }
-
     public void setImage(String image) {
         this.image = image;
     }
